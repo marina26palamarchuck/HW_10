@@ -1,70 +1,27 @@
-    1  git config --global user.name "Palamarchuk Maryna"
-    2  git config --global user.email palamarchukm90@gmail.com
-    3  git clone https://github.com/marina26palamarchuck/HW_10.git
-    4  touch text_ignore.txt
-    5  .. /
-    6  cd
-    7  /repos
-    8  cd C:/repos
-    9   git clone https://github.com/marina26palamarchuck/HW_10.git
-   10  cd /HW_10
-   11  cd c:/repos/HW_10
-   12   touch text_ignore.txt
-   13  git status
-   14  git add
-   15  git add .
-   16  git commit
-   17  git push
-   18  touch main_test.txt
-   19  git add .
-   20  git commit
-   21  git brach develop
-   22  git branch develop
-   23  git checkout develop
-   24  touch develop_test.txt
-   25  git add .
-   26  git commit
-   27  git status
-   28  git add .
-   29  git status
-   30  git commit
-   31  git branch
-   32  git checkout main
-   33  git branch
-   34  git log
-   35  git merge develop
-   36  git log
-   37  git histiry > command_list.csv
-   38  git history > command_list.csv
-   39  history > command_list.csv
-   40  git add .
-   41  git commit
-   42  git push
-   43  mc
-   44  cd
-   45  cd c:/repos/
-   46  git clone https://github.com/marina26palamarchuck/HW_10.git
-   47  cd c:/repos/HW_10
-   48  touch text_ignore.txt
-   49  git status
-   50  git add .
-   51  git status
-   52  git commit -m "first commit"
-   53  touch main_test.txt
-   54  git add .
-   55  git commit -m "second commit"
-   56  git branch develop
-   57  git checkout develop
-   58  touch develop_test.txt
-   59  git add .
-   60  git commit -m "third commit"
-   61  git status
-   62  git add .
-   63  git status
-   64  git commit -m "fourth commit"
-   65  git branch
-   66  git checkout main
-   67  git branch
-   68  git merge develop
-   69  git log
-   70  history > command_list.csv
+    1  cd c:/repos/
+    2  git config --global user.name "Palamarchuk Maryna"
+    3  git config --global user.email palamarchukm90@gmail.com
+    4  git clone https://github.com/marina26palamarchuck/HW_10.git
+   5  cd c:/repos/HW_10
+   6  touch text_ignore.txt
+   7  git status
+   8  git add .
+   9  git status
+   10  git commit -m "first commit"
+   11  touch main_test.txt
+   12  git add .
+   13  git commit -m "second commit"
+   14  git branch develop
+   15  git checkout -b develop
+   16  touch develop_test.txt
+   17  git add .
+   18  git commit -m "third commit"
+   19  git status
+   20  git add .
+   21  git status
+   22  git commit -m "fourth commit"
+   23  git branch
+   24  git checkout main
+   25  git branch
+   26  git merge develop
+   27  git log
